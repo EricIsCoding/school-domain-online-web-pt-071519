@@ -17,5 +17,8 @@ class School
   def grade(student_grade_level)
     @roster[student_grade_level]
   end
-  
+  def sort
+    @roster.each do |grade_level, class_list|
+    end
+  end
 end
